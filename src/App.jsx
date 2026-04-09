@@ -788,9 +788,5 @@ export default function App() {
     </div>
   )
 }
-"""
 
-path = Path('/mnt/data/App.jsx')
-path.write_text(app_code, encoding='utf-8')
-print(path)
-print(path.read_text(encoding='utf-8')[:200])
+
